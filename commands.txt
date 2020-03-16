@@ -1,0 +1,22 @@
+    1  git config --global user.name"[mingkai wang s3773115]"
+    2  git config --global user.name "[mingkai wang s3773115]"
+    3  git config --global user.email "[s3773115@student.rmit.edu.au]"
+    4  git config --global colour.ui auto
+    5  touch Answer.md
+    6  git checkout updatingcode
+    7  git status
+    8  git checkout -b assignment
+    9  git diff assignment updatingcode
+   10  git merge master
+   11  git checkout master
+   12  git merge assignment
+   13  git checkout assignment
+   14  git commit -m "Part 1"
+   15  git add Answer.md 
+   16  git commit -m "Part 1"
+   17  assignment)
+   18  git remote add origin https://github.com/MingkaiWang-s3773115/Assignment1.git
+   19  git remote add assignment1 https://github.com/MingkaiWang-s3773115/Assignment1.git
+   20  git push -u assignment1 master
+   21  git checkout master
+   22  history > commands.txt
